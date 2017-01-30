@@ -5,15 +5,8 @@ $(document).ready(function(){
     });
     
     $("img").click(function() {
-
         borderColor($(this))
-		winText()
-        
-        
-        
-        
-        
-        
+		winText()  
     });
 	
 	function borderColor(image){
@@ -27,11 +20,10 @@ $(document).ready(function(){
 	function winText(){
 		var numOfCats = $(".catImg").length
         var catsSelected = $(".right").length
-        var dogsSelected = $(".wrong").length
+        var otherSelected = $(".wrong").length
 		
-		if(catsSelected==numOfCats && dogsSelected==0) {
-            $("p").empty();
-            $("p").append("You found them all!");
+		if(catsSelected==numOfCats && otherSelected==0) {
+            $("p").text("You found them all!");
         } else {
             $("p").empty();
         }
