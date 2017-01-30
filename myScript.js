@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
 	
 	function setBorderColor(image){
-		if(image.attr("class").includes("cat") == true){
+		if(image.hasClass("catImg")){
             image.toggleClass("right");
         } else {
             image.toggleClass("wrong");
