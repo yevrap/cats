@@ -7,8 +7,10 @@ $(document).ready(function(){
 	
     $("#reset").click(function(){
 		$("#reset").css("visibility", "hidden")
+        $("img").css("visibility", "hidden");
         $("img").removeClass("wrong right");
 		$("p").empty();
+        startTime = new Date;
     });
     
     $("img").click(function() {
