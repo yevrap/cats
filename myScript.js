@@ -3,13 +3,6 @@ $(document).ready(function(){
 	$("#start").click(function(){
 		$("img").css("visibility", "visible");
 		startTime = new Date;
-		/*
-		var start = new Date;
-		setInterval(function() {
-			$('.timer').text(Math.round((new Date - start) / 1000, 0) + " Seconds");
-		}, 1000);
-		*/
-		
 	});
 	
     $("#reset").click(function(){
