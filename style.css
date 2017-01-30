@@ -3,8 +3,6 @@ body {
 }
 
 img {
-	 width: 128px;
-	 height: 128px;
 	 border: 2px solid black;
      display: none;
 }
