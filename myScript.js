@@ -1,7 +1,8 @@
 $(document).ready(function(){
     
-    $("#start").click(function(){
-        $("img").show();
+    $("#reset").click(function(){
+        $("img").removeClass("wrong right");
+		$("p").empty();
     });
     
     $("img").click(function() {
