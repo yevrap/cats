@@ -30,8 +30,10 @@ namespace Tests
         public void PageLoad()
         {
             string title = driver.Title;
-            IWebElement startButton = driver.FindElement(By.Id("start"));
             Assert.AreEqual(title, "Cats");
+
+            IWebElement startButton = driver.FindElement(By.Id("start"));
+            
             Assert.AreEqual(startButton.GetAttribute("id"), "start");
         }
     }
