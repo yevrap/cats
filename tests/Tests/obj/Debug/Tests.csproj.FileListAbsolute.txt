@@ -1,0 +1,10 @@
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\Tests.dll
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\Tests.pdb
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\WebDriver.dll
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\WebDriver.Support.dll
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\WebDriver.xml
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\bin\Debug\WebDriver.Support.xml
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\obj\Debug\Tests.dll
+C:\Users\erapoport\Documents\repos\cats\Tests\Tests\obj\Debug\Tests.pdb
